@@ -9,6 +9,8 @@ public class main{
 
 
 // create html gui
-// host on github
+// host on firebase
+    // learn firebase lmao
+
 // java login code
-    // get user
+    // get user login information and 
