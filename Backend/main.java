@@ -8,7 +8,7 @@ public class main{
 
 
 
-// create html gui
+// create html gui - game will run locally
 // host on firebase
     // learn firebase lmao
 
