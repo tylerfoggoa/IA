@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class test {
+public class signup {
     public static void main(String[] args) {
         boolean login = false;
         // declaring an array that will store user information
