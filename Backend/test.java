@@ -50,13 +50,8 @@ public class test {
 
         try {
             // Create FileWriter and BufferedWriter objects
-            FileWriter writer = new FileWriter(filePath);
+            FileWriter writer = new FileWriter(filePath, true);
             BufferedWriter bufferedWriter = new BufferedWriter(writer);
-
-            // starting with an offset to avoid overwriting data
-            for(int i = 0; i > offset; i++) {
-                bufferedWriter.write("\n");
-            }
 
             // Write each element of the userInfo ArrayList to the file
             for (String info : userInfo) {
@@ -73,8 +68,6 @@ public class test {
             e.printStackTrace();
         }
     }
-
-
 
 
     public static void ReadFile(String email, boolean login, ArrayList userInfo) {
@@ -97,9 +90,7 @@ public class test {
         }
     }
 
-    public static void getOffset
 }
-
 
 // TODO
     // fix overwriting userlist
