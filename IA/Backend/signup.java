@@ -5,13 +5,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class test {
+public class signup {
     public static void main(String[] args) {
         boolean login = false;
         // declaring an array that will store user information
         ArrayList<String> userInfo = new ArrayList<String>();
-
-
         // automatically assume the login went well until ReadFile contradicts 
         login = true;
 
@@ -49,10 +47,10 @@ public class test {
                 }
             }
         myReader.close();
-    } catch (FileNotFoundException e) {
-        System.out.println("An error occurred.");
-        e.printStackTrace();
-    }
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
 
         // Specify the file path
         String filePath = "C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\Stored Data\\userlist.txt";
