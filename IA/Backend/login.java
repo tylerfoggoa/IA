@@ -36,7 +36,10 @@ public class login {
                 nextLine = myReader.nextLine(); // Create variable to store the next line as a string
                 String emailString = nextLine.split(",")[0]; // delete everything after the comma
                 if(emailString.equals(email)) { // check to see if the email is already in the array
-                    // load user data     
+                    // to store data on the computer without using SQL, it will be stored in a file, then interpreted by the java code.
+                    // basically --> User Clicks on recipe, html tells java to load the data using springboard, java goes into the file system 
+                    // and finds the apropriate files
+                    // naming scheme: recipeName_textData, recipeName_image
                 }
             }
             myReader.close();
