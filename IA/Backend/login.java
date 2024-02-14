@@ -28,7 +28,7 @@ public class login {
         password = scan2.nextLine(); 
         userInfo.add(password);
         try {
-            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\Stored Data\\userlist.txt");
+            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\IA\\Stored Data\\userlist.txt");
             Scanner myReader = new Scanner(userInfoFile);
             String nextLine;
             while (myReader.hasNextLine()) {
