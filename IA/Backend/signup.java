@@ -32,7 +32,7 @@ public class signup {
         password = scan2.nextLine(); 
         userInfo.add(password);
         try {
-            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\Stored Data\\userlist.txt");
+            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\IA\\Stored Data\\userlist.txt");
             Scanner myReader = new Scanner(userInfoFile);
             String nextLine;
             while (myReader.hasNextLine()) {
@@ -53,7 +53,7 @@ public class signup {
         }
 
         // Specify the file path
-        String filePath = "C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\Stored Data\\userlist.txt";
+        String filePath = "C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\IA\\Stored Data\\userlist.txt";
 
         try {
             // Create FileWriter and BufferedWriter objects
@@ -77,7 +77,7 @@ public class signup {
 
     public static void ReadFile(String email, boolean login, ArrayList userInfo) {
         try {
-            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\Stored Data\\userlist.txt");
+            File userInfoFile = new File("C:\\Users\\foggtyl25\\OneDrive - issaquah.wednet.edu\\IB Comp Sci\\IA\\IA\\Stored Data\\userlist.txt");
             Scanner myReader = new Scanner(userInfoFile);
             String nextLine;
             while (myReader.hasNextLine()) {
