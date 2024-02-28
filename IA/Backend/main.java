@@ -5,10 +5,6 @@ public class main{
 }
 
 
-
-// create html gui - game will run locally
-// host on firebase
-    // learn firebase lmao
-
-// java login code
-    // get user login information and 
+// create a way to store the information that the user puts into the HTML GUI.
+    // need to tag each stored item with the card it was in.
+// create a way to load this data with a specific user (tie stored data file to the user)
