@@ -2,7 +2,7 @@ const month = ["January", "February", "March", "April", "May", "June", "July", "
 const currentDate = new Date();
 const monthName = month[currentDate.getMonth()];
 
-// function to get the first day of the current month
+// get the first day of the current month
 function getFirstDayOfMonth(year, month) {
     return new Date(year, month, 1).getDay();
 }
@@ -68,7 +68,7 @@ var btn = document.getElementById("days-list");
 // fetch the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// when the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }

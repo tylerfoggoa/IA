@@ -121,7 +121,7 @@ input[type="submit"]:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    text-align: center; /* Add this line to center the content inside the card */
+    text-align: center;
 }
 
 input[type="submit"] {
@@ -132,5 +132,5 @@ input[type="submit"] {
     background-color: #1abc9c;
     color: #fff;
     cursor: pointer;
-    margin-top: 20px; /* Add margin-top to create space between input fields and the submit button */
+    margin-top: 20px;
 }
